@@ -7,7 +7,7 @@ public class TestServlet implements Servlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-
+        System.out.println("servlet 初始化了");
     }
 
     @Override
